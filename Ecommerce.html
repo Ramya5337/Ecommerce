@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <style>
+        .login{
+            text-align: center;
+            margin-top: 8%;
+            border: 2px solid black;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        .form{
+            font-size: 20px;
+            background-color: darkkhaki;
+            
+
+        }
+        input[type=email]:hover{
+              background-color:gray ;
+            
+        }
+        input[type=password]:hover{
+              background-color:gray ;
+            
+        }
+        
+    </style>
+</head>
+<body style="background-color: rgb(220, 183, 20);">
+    <h1 style="text-align: center;margin-top: 8%;">LOGIN</h1>
+    <div class="login">
+    <form class="form" action="submit"method="post">
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" id="mail" placeholder="Enter your mail" />
+        <br>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="pwd" id="pwd" placeholder="Enter your password" />
+        <br>
+        <br>
+        <input type="submit" class="regbtn" value="Login" style="background-color: blue;color: white;"/>
+        <br>
+        <br>
+        
+        <input type="button" value="forgot password" style="background-color: cornflowerblue;color: white;" onclick="location.href='forgot password.html';"/>
+        <br>
+        <br>
+        <input type="button" class="regbtn" value="GO TO" style="background-color: blue;color: white;" onclick="location.href='home.html';"/>
+        <br>
+        <br>
+    </form>
+    </div>
+    
+</body>
+</html>
